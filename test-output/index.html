@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression_test_suite">
+              <span class="suite-name border-skipped">Regression test suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_test_suite">
+                    <span>C:\OLD_PC\C\Users\Nastassia_Chaliapina\Desktop\Automation\TAM2018Q2_Repo-master\4FRAG_3\src\test\java\resources\TestngRegression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_test_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression_test_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression_test_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_test_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_test_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_test_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,  13 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Regression_test_suite" class="hide-methods skipped suite-Regression_test_suite"> (hide)</a> <!-- hide-methods skipped suite-Regression_test_suite -->
+                      <a href="#" panel-name="suite-Regression_test_suite" class="show-methods skipped suite-Regression_test_suite"> (show)</a> <!-- show-methods skipped suite-Regression_test_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Regression_test_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyProductIsAddedToCard" hash-for-method="testAdditionProductToCard">testAdditionProductToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testBasketPageIsDisplayed">testBasketPageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testBookmarksPageIsDisplayed">testBookmarksPageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyProductsCatalogOptions" hash-for-method="testChooseProductFromCatalog">testChooseProductFromCatalog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testComparasionListPageIsDisplayed">testComparasionListPageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testDeliveryPageIsDisplayed">testDeliveryPageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testDiscountSystemPageIsDisplayed">testDiscountSystemPageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyLoginFunctionality" hash-for-method="testLoginOption">testLoginOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testLoginWindowIsDisplayed">testLoginWindowIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testPaymentPageIsDisplayed">testPaymentPageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyProductAdditionToComparasionList" hash-for-method="testProductAdditionToTheList">testProductAdditionToTheList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testWarrantyPageIsDisplayed">testWarrantyPageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_test_suite" title="tests.VerifyHeaderButtonsAreClickable" hash-for-method="testWishListPageIsDisplayed">testWishListPageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Regression_test_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_suite" class="panel Test_suite">
+        </div> <!-- panel Test_suite -->
+        <div panel-name="suite-Regression_test_suite" class="panel Regression_test_suite">
+          <div class="suite-Regression_test_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.VerifyLoginFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginOption">
+                  </a> <!-- testLoginOption -->
+                  <span class="method-name">testLoginOption</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_test_suite-class-skipped -->
+          <div class="suite-Regression_test_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.VerifyProductsCatalogOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChooseProductFromCatalog">
+                  </a> <!-- testChooseProductFromCatalog -->
+                  <span class="method-name">testChooseProductFromCatalog</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_test_suite-class-skipped -->
+          <div class="suite-Regression_test_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.VerifyHeaderButtonsAreClickable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBasketPageIsDisplayed">
+                  </a> <!-- testBasketPageIsDisplayed -->
+                  <span class="method-name">testBasketPageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBookmarksPageIsDisplayed">
+                  </a> <!-- testBookmarksPageIsDisplayed -->
+                  <span class="method-name">testBookmarksPageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testComparasionListPageIsDisplayed">
+                  </a> <!-- testComparasionListPageIsDisplayed -->
+                  <span class="method-name">testComparasionListPageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeliveryPageIsDisplayed">
+                  </a> <!-- testDeliveryPageIsDisplayed -->
+                  <span class="method-name">testDeliveryPageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDiscountSystemPageIsDisplayed">
+                  </a> <!-- testDiscountSystemPageIsDisplayed -->
+                  <span class="method-name">testDiscountSystemPageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWindowIsDisplayed">
+                  </a> <!-- testLoginWindowIsDisplayed -->
+                  <span class="method-name">testLoginWindowIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPaymentPageIsDisplayed">
+                  </a> <!-- testPaymentPageIsDisplayed -->
+                  <span class="method-name">testPaymentPageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWarrantyPageIsDisplayed">
+                  </a> <!-- testWarrantyPageIsDisplayed -->
+                  <span class="method-name">testWarrantyPageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWishListPageIsDisplayed">
+                  </a> <!-- testWishListPageIsDisplayed -->
+                  <span class="method-name">testWishListPageIsDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_test_suite-class-skipped -->
+          <div class="suite-Regression_test_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.VerifyProductIsAddedToCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAdditionProductToCard">
+                  </a> <!-- testAdditionProductToCard -->
+                  <span class="method-name">testAdditionProductToCard</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_test_suite-class-skipped -->
+          <div class="suite-Regression_test_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.VerifyProductAdditionToComparasionList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductAdditionToTheList">
+                  </a> <!-- testProductAdditionToTheList -->
+                  <span class="method-name">testProductAdditionToTheList</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;100.64.100.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005D0C83+1707139]
+	Ordinal0 [0x005368F1+1075441]
+	Ordinal0 [0x004ADFC9+516041]
+	Ordinal0 [0x00440554+66900]
+	Ordinal0 [0x0043CCE2+52450]
+	Ordinal0 [0x0045BFD7+180183]
+	Ordinal0 [0x0045BDDD+179677]
+	Ordinal0 [0x00459D4B+171339]
+	Ordinal0 [0x00441D4A+73034]
+	Ordinal0 [0x00442DC0+77248]
+	Ordinal0 [0x00442D59+77145]
+	Ordinal0 [0x0054BB67+1162087]
+	GetHandleVerifier [0x0066A966+508998]
+	GetHandleVerifier [0x0066A6A4+508292]
+	GetHandleVerifier [0x0067F7B7+594583]
+	GetHandleVerifier [0x0066B1D6+511158]
+	Ordinal0 [0x0054402C+1130540]
+	Ordinal0 [0x0054D4CB+1168587]
+	Ordinal0 [0x0054D633+1168947]
+	Ordinal0 [0x00565B35+1268533]
+	BaseThreadInitThunk [0x76026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BB7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pages.basepagesconfiguration.BasePageClass.initializeDriver(BasePageClass.java:42)
+	at pages.basepagesconfiguration.BasePageClass.setUp(BasePageClass.java:56)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_test_suite-class-skipped -->
+        </div> <!-- panel Regression_test_suite -->
+        <div panel-name="test-xml-Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; name=&quot;Test suite&quot; parallel=&quot;methods&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;src/test/java/resources/TestngRegression.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Test suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\OLD_PC\C\Users\Nastassia_Chaliapina\Desktop\Automation\TAM2018Q2_Repo-master\4FRAG_3\src\test\java\resources\TestngRegression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression test suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;RegressionTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;Login/Registration&quot; value=&quot;Вход/регистрация&quot;/&gt;
+    &lt;parameter name=&quot;Discount system&quot; value=&quot;Система скидок&quot;/&gt;
+    &lt;parameter name=&quot;Payment&quot; value=&quot;Оплата&quot;/&gt;
+    &lt;parameter name=&quot;Bookmarks&quot; value=&quot;Закладки&quot;/&gt;
+    &lt;parameter name=&quot;Warranty&quot; value=&quot;Гарантия&quot;/&gt;
+    &lt;parameter name=&quot;Products Comparasion&quot; value=&quot;Сравнение товаров&quot;/&gt;
+    &lt;parameter name=&quot;Basket&quot; value=&quot;Корзина&quot;/&gt;
+    &lt;parameter name=&quot;Delivery&quot; value=&quot;Доставка&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.VerifyLoginFunctionality&quot;/&gt;
+      &lt;class name=&quot;tests.VerifyProductIsAddedToCard&quot;/&gt;
+      &lt;class name=&quot;tests.VerifyProductAdditionToComparasionList&quot;/&gt;
+      &lt;class name=&quot;tests.VerifyHeaderButtonsAreClickable&quot;/&gt;
+      &lt;class name=&quot;tests.VerifyProductsCatalogOptions&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegressionTests --&gt;
+&lt;/suite&gt; &lt;!-- Regression test suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RegressionTests (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_suite');
+function tableData_Test_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Test_suite']= { tableData: data, tableDiv: 'times-div-Test_suite'}
+return data;
+}
+              </script>
+              <div id="times-div-Test_suite">
+              </div> <!-- times-div-Test_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_test_suite');
+function tableData_Regression_test_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPaymentPageIsDisplayed')
+data.setCell(0, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testComparasionListPageIsDisplayed')
+data.setCell(1, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testBookmarksPageIsDisplayed')
+data.setCell(2, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testWishListPageIsDisplayed')
+data.setCell(3, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginOption')
+data.setCell(4, 2, 'tests.VerifyLoginFunctionality')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDeliveryPageIsDisplayed')
+data.setCell(5, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginWindowIsDisplayed')
+data.setCell(6, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testChooseProductFromCatalog')
+data.setCell(7, 2, 'tests.VerifyProductsCatalogOptions')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDiscountSystemPageIsDisplayed')
+data.setCell(8, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testProductAdditionToTheList')
+data.setCell(9, 2, 'tests.VerifyProductAdditionToComparasionList')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testBasketPageIsDisplayed')
+data.setCell(10, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAdditionProductToCard')
+data.setCell(11, 2, 'tests.VerifyProductIsAddedToCard')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testWarrantyPageIsDisplayed')
+data.setCell(12, 2, 'tests.VerifyHeaderButtonsAreClickable')
+data.setCell(12, 3, 0);
+window.suiteTableData['Regression_test_suite']= { tableData: data, tableDiv: 'times-div-Regression_test_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-Regression_test_suite">
+              </div> <!-- times-div-Regression_test_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyLoginFunctionality</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyProductIsAddedToCard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">2453 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyProductAdditionToComparasionList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">3804 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyHeaderButtonsAreClickable</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">5071 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyProductsCatalogOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">6679 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyLoginFunctionality</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLoginOption</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyProductIsAddedToCard</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAdditionProductToCard</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyProductAdditionToComparasionList</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProductAdditionToTheList</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyHeaderButtonsAreClickable</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBasketPageIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBookmarksPageIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testComparasionListPageIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeliveryPageIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDiscountSystemPageIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginWindowIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPaymentPageIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWarrantyPageIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWishListPageIsDisplayed</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VerifyProductsCatalogOptions</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChooseProductFromCatalog</span>
+                <span class="method-start">-1592996271398 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
